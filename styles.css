@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.main-bingo-container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.bingo-card {
+    text-align: center;
+    border: solid 1px;
+    padding: 2ch;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 1ch;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input {
+    text-align: left;
+    margin-bottom: 2ch;
+    margin-left: 10ch;
+    font-size: large;
+}
+
+#random {
+    display: block;
+    margin-top: 2ch;
+    font-size: large;
+}
+
+#quantity {
+    width: 5ch;
+}
+
+.user-board {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: 2ch;
+}
+
+#user {
+    font-size: large;
+}
+
+#quantity {
+    font-size: large;
+}

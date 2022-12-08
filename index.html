@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- BINGO CHALLENGE!
+Create programmatically (using JS) a bingo board with 76 cells, numbered from 1 to 76.
+
+Create a button to randomize a number from 1 to 76.
+
+The cell with same number should be highlighted in some way on the bingo board.
+
+ 
+
+EXTRA:
+
+– Make sure to always select a new number (eg. avoid getting the number 10 multiple times).
+
+– Create a user board with 24 randomized numbers that highlights as the main board does.
+
+– Let the user choose how many user boards he’s willing to play with and generate them before starting to play.
+
+ 
+
+Commit and push the code to your personal GitHub repository; post the link of your commit below before 17.00 CET. -->
+
+    <div class="container">
+      <h1>Bingo Time</h1>
+      <div class="input">
+        <input type="number" id="quantity" min="1" />
+        <input
+          type="button"
+          value="User Board"
+          id="user"
+          onclick="numberOfBoards()"
+        />
+        <input
+          type="button"
+          value="Random Number"
+          id="random"
+          onclick="randomBingo()"
+        />
+      </div>
+      <div class="main-bingo-container"></div>
+
+      <div class="user-board"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
